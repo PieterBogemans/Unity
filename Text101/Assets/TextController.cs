@@ -8,6 +8,17 @@ public class TextController : MonoBehaviour {
 	private enum States {cell,sheets_0,lock_0, cell_1, lock_1, corridor_0};
 	private States myState;
 	
+	private bool hasWeapon = true; 
+	
+	void Example () {
+		if (hasWeapon) {
+			//Do this
+		} else {
+			//Do this
+		}
+	}
+	
+	
 	// Use this for initialization
 	void Start () {
 		myState = States.cell;
